@@ -1,0 +1,98 @@
+.btn-header {
+    height: 3rem;
+    background-color: $secondary-100;
+    color: white;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    transition: all .3s;
+    padding: 0.8rem;
+    &:hover {
+        background-color: $primary-200;
+        color: $primary-100;
+    }
+    span {
+        font-weight: 600;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1em;
+        padding-right: 0.8rem;
+    }
+    ion-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.btn-nav {
+    display: flex;
+    align-items: center;
+    color: #FFFF;
+    ion-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: 1.6rem;
+    }
+    span {
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1em;
+    }
+    &:hover{
+        color: $primary-200;
+    }
+    &.active {
+        color: $primary-200;
+    }
+}
+
+.btn-filter {
+    width: 15rem;
+    height: 3rem;
+    background-color: #FFFF;
+    border: 0.1rem solid $primary-100;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    &:hover {
+        background-color: $primary-100;
+        color: $primary-200;
+    }
+}
+
+.btn-action {
+    height: 3rem;
+    background-color: $secondary-200;
+    color: white;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    transition: all .3s;
+    padding: 0.8rem;
+    span {
+        font-weight: 600;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1em;
+        padding-right: 0.8rem;
+    }
+    ion-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+    &:hover {
+        background-color: $primary-100;
+        color: $primary-200;
+    }
+}
